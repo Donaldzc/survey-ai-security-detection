@@ -1,0 +1,41 @@
+编号,标题,第一作者,年份,来源,CCF分级,主题标签,开源链接,链接核验状态
+1,Kitsune: An ensemble of autoencoders for online network intrusion detection,Mirsky Y,2018,NDSS,CCF-A,网络入侵检测,https://github.com/ymirsky/Kitsune-py,✅
+2,VulDeePecker: A deep learning-based system for vulnerability detection,Li Z,2018,NDSS,CCF-A,静态漏洞检测,,待核实
+3,Automated vulnerability detection in source code using deep representation learning,Russell R,2018,ICMLA,CCF-C,静态漏洞检测,,待核实
+4,Learning to represent programs with graphs,Allamanis M,2018,ICLR,CCF-A,代码表示学习,,待核实
+5,Devign: Effective vulnerability identification by learning comprehensive program semantics via graph neural networks,Zhou Y,2019,NeurIPS,CCF-A,静态漏洞检测,https://github.com/epicosy/devign,⚠️第三方复现
+6,DeepLog: Anomaly detection and diagnosis from system logs through deep learning,Du M,2017,ACM CCS,CCF-A,日志异常检测,,待核实
+7,LogAnomaly: Unsupervised detection of sequential and quantitative anomalies in unstructured logs,Meng W,2019,IJCAI,CCF-A,日志异常检测,,待核实
+8,CodeBERT: A pre-trained model for programming and natural languages,Feng Z,2020,EMNLP,CCF-B,代码预训练,https://github.com/microsoft/CodeBERT,✅
+9,GraphCodeBERT: Pre-training code representations with data flow,Guo D,2021,ICLR,CCF-A,代码预训练,https://github.com/microsoft/CodeBERT,✅
+10,CodeXGLUE: A machine learning benchmark dataset for code understanding and generation,Lu S,2021,NeurIPS D&B,CCF-A,基准数据集,,待核实
+11,DeepWukong: Statically detecting software vulnerabilities using deep graph neural network,Cheng X,2021,ACM TOSEM,CCF-A,静态漏洞检测,https://github.com/jumormt/DeepWukong,✅
+12,SySeVR: A framework for using deep learning to detect software vulnerabilities,Li Z,2022,IEEE TDSC,CCF-A,静态漏洞检测,,待核实
+13,VulDeeLocator: A deep learning-based fine-grained vulnerability detector,Li Z,2021,IEEE TDSC,CCF-A,静态漏洞检测,,待核实
+14,μVulDeePecker: A deep learning-based system for multiclass vulnerability detection,Zou D,2021,IEEE TDSC,CCF-A,静态漏洞检测,,待核实
+15,Vulnerability detection with fine-grained interpretations,Li Y,2021,ESEC/FSE,CCF-A,静态漏洞检测+可解释性,,待核实
+16,LineVD: Statement-level vulnerability detection using graph neural networks,Hin D,2022,MSR,CCF-C,静态漏洞检测(语句级),https://github.com/davidhin/linevd,✅
+17,LineVul: A transformer-based line-level vulnerability prediction,Fu M,2022,MSR,CCF-C,静态漏洞检测(语句级),,待核实
+18,Log parsing with prompt-based few-shot learning,Le V H,2023,ICSE,CCF-A,日志异常检测,https://github.com/LogIntelligence/LogPPT,✅
+19,Attention is all you need,Vaswani A,2017,NeurIPS,CCF-A,基础模型,,N/A
+21,BERT: Pre-training of deep bidirectional transformers for language understanding,Devlin J,2019,NAACL-HLT,CCF-B,基础模型,,N/A
+22,A survey of machine learning for big code and naturalness,Allamanis M,2018,ACM Computing Surveys,CCF-A,综述,,N/A
+23,DeepBugs: A learning approach to name-based bug detection,Pradel M,2018,OOPSLA,CCF-A,缺陷检测,,待核实
+24,Adversarial machine learning for network intrusion detection systems: A comprehensive survey,He K,2023,IEEE COMST,CCF-A,综述(入侵检测),,N/A
+25,Explainable intrusion detection for cyber defences in the internet of things: Opportunities and solutions,Moustafa N,2023,IEEE COMST,CCF-A,综述(入侵检测+XAI),,N/A
+26,Machine learning for source code vulnerability detection: What works and what isn't there yet,Marjanov T,2022,IEEE Security & Privacy,CCF-B,综述(漏洞检测),,N/A
+27,Landscape and taxonomy of online parser-supported log anomaly detection methods,Lupton S,2024,IEEE Access,CCF-B,综述(日志异常),,N/A
+28,Deep learning aided software vulnerability detection: A survey,Uddin M N,2025,arXiv,预印本,综述(漏洞检测),,N/A
+29,mVulPreter: A multi-granularity vulnerability detection system with interpretations,Zou D,2022,IEEE TDSC,CCF-A,静态漏洞检测(多粒度),,待核实
+30,KDSA-VD: Optimizing cross-project vulnerability detection through dual-driven fusion of knowledge distillation and structural alignment,Hong C,2026,Expert Systems with Applications,CCF-B,跨项目漏洞检测,,待核实
+31,SlicedLocator: Code vulnerability locator based on sliced dependence graph,Wu B,2023,Computers & Security,CCF-B,静态漏洞检测(语句级),,待核实
+32,Audit-LLM: Multi-agent collaboration for log-based insider threat detection,Song C,2024,arXiv,预印本,多智能体+日志分析,,待核实
+33,EaTVul: ChatGPT-based evasion attack against software vulnerability detection,Liu S,2024,arXiv,预印本,对抗鲁棒性,,待核实
+34,Interpreters for GNN-based vulnerability detection: Are we there yet?,Hu Y,2023,ISSTA,CCF-B,可解释性,,待核实
+35,Deep learning based vulnerability detection: Are we there yet?,Chakraborty S,2022,IEEE TSE,CCF-A,静态漏洞检测(ReVeal),https://github.com/VulDetProject/ReVeal,✅
+36,The PRISMA 2020 statement,Page M J,2021,BMJ,SCI,方法论,,N/A
+37,USENIX Security '24 Program Committee Message,USENIX,2024,usenix.org,,支撑材料,,N/A
+38,IEEE S&P 2025 Program Chairs Message,IEEE,2025,IEEE Xplore,,支撑材料,,N/A
+39,Google Big Sleep / Project Naptime announcements,Google,2024-2025,blog.google,,工业案例,,N/A
+40,AI-assisted fuzzing discovers CVE-2024-9143 in OpenSSL,Google Security Blog,2024,Google Security Blog,,工业案例,,N/A
+41,Amazon CodeGuru Reviewer availability change / Security end of support,AWS,2025,docs.aws.amazon.com,,工业案例,,N/A
