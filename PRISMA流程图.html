@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PRISMA 2020 Flow Diagram</title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; background:#fff; margin:0; padding:24px; }
+  .wrap { width: 820px; margin: 0 auto; }
+  h2 { text-align:center; font-size:15px; color:#333; font-weight:600; margin-bottom:8px;}
+  .note { text-align:center; font-size:11px; color:#888; margin-top:10px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h2>Fig. 1. PRISMA 2020 Flow Diagram of the Literature Selection Process</h2>
+<svg width="820" height="760" viewBox="0 0 820 760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 Z" fill="#444"/>
+    </marker>
+    <style>
+      .phase { fill:#e8eef5; }
+      .phase-label { font-size:13px; font-weight:bold; fill:#2c3e50; }
+      .box { fill:#ffffff; stroke:#2c3e50; stroke-width:1.2; rx:4; }
+      .box-side { fill:#f7f7f7; stroke:#2c3e50; stroke-width:1.2; rx:4; }
+      .t { font-size:12.5px; fill:#222; }
+      .tb { font-size:13px; font-weight:bold; fill:#2c3e50; }
+      .ts { font-size:11.5px; fill:#444; }
+      .arrow { stroke:#444; stroke-width:1.4; fill:none; marker-end:url(#arrow); }
+    </style>
+  </defs>
+
+  <!-- Phase bars -->
+  <rect class="phase" x="10" y="40" width="110" height="120" rx="4"/>
+  <text class="phase-label" x="65" y="104" text-anchor="middle">Identification</text>
+
+  <rect class="phase" x="10" y="210" width="110" height="240" rx="4"/>
+  <text class="phase-label" x="65" y="334" text-anchor="middle">Screening</text>
+
+  <rect class="phase" x="10" y="500" width="110" height="120" rx="4"/>
+  <text class="phase-label" x="65" y="564" text-anchor="middle">Included</text>
+
+  <!-- Identification -->
+  <rect class="box" x="180" y="40" width="330" height="120"/>
+  <text class="tb" x="345" y="66" text-anchor="middle">Records identified from:</text>
+  <text class="t" x="345" y="88" text-anchor="middle">Databases and venues (n = 1,247)</text>
+  <text class="ts" x="345" y="110" text-anchor="middle">8 CCF-A conferences + 5 SCI journals</text>
+  <text class="ts" x="345" y="128" text-anchor="middle">Time window: Jan 2018 – Mar 2025</text>
+  <text class="ts" x="345" y="146" text-anchor="middle">Fields: title / abstract / keywords</text>
+
+  <rect class="box-side" x="580" y="40" width="220" height="120"/>
+  <text class="tb" x="690" y="66" text-anchor="middle">Records removed</text>
+  <text class="tb" x="690" y="84" text-anchor="middle">before screening:</text>
+  <text class="t" x="690" y="106" text-anchor="middle">Duplicate records (n = 203)</text>
+
+  <line class="arrow" x1="510" y1="100" x2="576" y2="100"/>
+
+  <!-- Screening 1 -->
+  <rect class="box" x="180" y="220" width="330" height="70"/>
+  <text class="tb" x="345" y="250" text-anchor="middle">Records screened</text>
+  <text class="t" x="345" y="272" text-anchor="middle">(title and abstract) (n = 1,044)</text>
+
+  <rect class="box-side" x="580" y="220" width="220" height="70"/>
+  <text class="tb" x="690" y="250" text-anchor="middle">Records excluded</text>
+  <text class="t" x="690" y="272" text-anchor="middle">(n = 732)</text>
+
+  <line class="arrow" x1="345" y1="160" x2="345" y2="216"/>
+  <line class="arrow" x1="510" y1="255" x2="576" y2="255"/>
+
+  <!-- Screening 2 -->
+  <rect class="box" x="180" y="350" width="330" height="100"/>
+  <text class="tb" x="345" y="380" text-anchor="middle">Full-text reports assessed</text>
+  <text class="tb" x="345" y="398" text-anchor="middle">for eligibility</text>
+  <text class="t" x="345" y="420" text-anchor="middle">(n = 312)</text>
+  <text class="ts" x="345" y="440" text-anchor="middle">Double review, Cohen's κ = 0.87</text>
+
+  <rect class="box-side" x="580" y="330" width="220" height="200"/>
+  <text class="tb" x="690" y="354" text-anchor="middle">Reports excluded</text>
+  <text class="t" x="690" y="374" text-anchor="middle">(n = 200)</text>
+  <text class="ts" x="592" y="400">• No methodological novelty (62)</text>
+  <text class="ts" x="592" y="422">• No public benchmark (51)</text>
+  <text class="ts" x="592" y="444">• Indirectly related topic (48)</text>
+  <text class="ts" x="592" y="466">• Theory only, no empirical (28)</text>
+  <text class="ts" x="592" y="488">• Venue below threshold (11)</text>
+
+  <line class="arrow" x1="345" y1="290" x2="345" y2="346"/>
+  <line class="arrow" x1="510" y1="400" x2="576" y2="400"/>
+
+  <!-- Included -->
+  <rect class="box" x="180" y="510" width="330" height="110"/>
+  <text class="tb" x="345" y="540" text-anchor="middle">Studies included in review</text>
+  <text class="t" x="345" y="564" text-anchor="middle">(n = 112)</text>
+  <text class="ts" x="345" y="586" text-anchor="middle">of which CCF-A level: n = 52 (46.4%)</text>
+  <text class="ts" x="345" y="604" text-anchor="middle">CCF-B: n = 28 (25.0%) · SCI journals: n = 32 (28.6%)</text>
+
+  <line class="arrow" x1="345" y1="450" x2="345" y2="506"/>
+
+  <!-- Footnote -->
+  <text class="ts" x="410" y="680" text-anchor="middle" font-style="italic">Adapted from Page et al. (2021), PRISMA 2020 statement. BMJ, 372:n71.</text>
+</svg>
+<p class="note">Usage: open in browser → screenshot or print to PDF for direct insertion into Word/LaTeX. Colors and fonts are print-friendly (grayscale-safe).</p>
+</div>
+</body>
+</html>

@@ -66,6 +66,8 @@ survey-ai-security-detection/
 [待补充：论文引用信息]
 ```
 
+仓库地址：https://github.com/Donaldzc/survey-ai-security-detection
+
 ## 数据更新
 
-仓库随新文献发表持续更新，最近更新：[待补充：更新日期]
+仓库随新文献发表持续更新，最近更新：2026-10-22
